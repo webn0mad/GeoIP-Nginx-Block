@@ -4,10 +4,10 @@
 # Установка необходимых пакетов (Debian/Ubuntu)
 apt-get update && apt-get install -y libnginx-mod-http-geoip2 libnginx-mod-http-geoip
 
-# Git Репозиторий с актуальными mmdb - перезалив от P3TERX в открытом доступе, без регистраций на сайте и прочего.
+Git Репозиторий с актуальными mmdb - перезалив от P3TERX в открытом доступе, без регистраций на сайте и прочего.
 https://github.com/P3TERX/GeoLite.mmdb
 
-cd /usr/share/GeoIP && wget https://git.io/GeoLite2-Country.mmdb
+Скачиваем - cd /usr/share/GeoIP && wget https://git.io/GeoLite2-Country.mmdb
 
 # И приступаем к конфигурации nginx
  1. nginx.conf
